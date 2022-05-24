@@ -244,7 +244,7 @@ function init() {
     function game_play() {
         // Go through the list
         cardDisplay.style.display = "block";
-        const startPath = "/assets/card-pngs/";
+        const startPath = "assets/card-pngs/";
 
         // 
         for(let i = currListInd; i < list.length; i++) {
