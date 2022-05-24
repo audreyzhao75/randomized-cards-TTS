@@ -274,7 +274,6 @@ function init() {
             // set the img
             let cardDesc = list[i].toLowerCase().replaceAll(" ", "_") + ".png";
             imgEle.src = startPath + cardDesc;
-            console.log(imgEle.src);
 
             read_card(list[i]);
 
